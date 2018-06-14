@@ -1,0 +1,174 @@
+/*
+=======================================================
+NavBar 
+=======================================================
+*/
+
+html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+    height: 100%;
+    /* display: flex; */
+    flex-direction: column;
+    font-family: 'Arial', 'Helvetica Neue', Helvetoca, sans-serif;  
+}
+.navbar {
+    padding: 0; 
+    background-color: #fff;
+    border-bottom: 2px solid #cccccc;
+}
+
+.content {
+    margin: auto;
+}
+
+.name {
+    margin: 0;
+    margin-left: -25px;
+    color: #fff;
+    padding: 16px 60px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4aaaa5;
+    display: inline-block;
+}
+
+ul {
+    margin: 0;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+li {
+    display: inline; 
+} 
+
+#pfT {
+    margin: 0 15px;
+    padding: 0 15px;
+    border-right: 2px solid #cccccc;
+    border-left: 2px solid #ccc;
+}
+
+/*
+=======================================================
+Content 
+=======================================================
+*/
+
+div.wrapper {
+    flex: 1 0 auto;
+    background-image: url("../images/techno_wallpaper_hd_by_gredius-d4guyxr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    border-top: 2px solid #cccccc;
+    margin-top: 30px;
+    margin-bottom: 20px;  
+    width: 100%;
+    height: 100%;
+}
+
+/*
+=======================================================
+About Me index.html section 
+=======================================================
+*/
+
+h2 {
+    font-family: 'Georgia', Times,Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+    padding: 20px 0px;  
+}
+
+p {
+    font-size: 16px;
+    line-height: 2;
+    color: #777;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+/*
+=======================================================
+Portfolio.html
+=======================================================
+*/
+
+#profile {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    width: 300px;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    bottom: 25px;
+    position: absolute;
+}
+
+/*
+=======================================================
+Contact.html
+=======================================================
+*/
+
+textarea {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-bottom: 20px;
+    color: #fff;
+    background: #4aaaa5;
+}
+
+/*
+=======================================================
+Footer
+=======================================================
+*/
+
+footer {
+    padding: 10px;
+    background: #666666;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+}
+
+footer small {
+    margin: 0;
+    color: #ffffff;
+    font-size: 0.7em;
+    padding: 10px 0;
+    text-align: center;
+}

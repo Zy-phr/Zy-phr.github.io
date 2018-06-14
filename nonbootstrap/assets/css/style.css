@@ -1,0 +1,398 @@
+/*
+=======================================================
+Header Box
+=======================================================
+*/
+
+html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', 'Helvetica Neue', Helvetoca, sans-serif;  
+}
+
+header {
+    width: 960px;
+    margin: 0 auto;  
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+a.portfolio {
+    margin: 0 15px;
+    padding: 0 15px;
+    border-right: 2px solid #cccccc;
+    border-left: 2px solid #ccc;
+}
+
+nav a:hover {
+    color: #4aaaa5;
+}
+
+/*
+=======================================================
+Index.html 
+=======================================================
+*/
+
+h2 {
+    font-family: 'Georgia', Times,Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px; 
+    margin-top: 0px;
+}
+
+h1 {
+    margin: 0;
+    color:#ffffff;
+    padding:16px; 
+    font-size: 24px;
+    background: #4aaaa5;
+    display: inline-block;
+    font-family: 'Georgia', Times,Times New Roman, serif;
+    font-weight: bold;
+}
+
+div.wrapper {
+    flex: 1 0 auto;
+    background-image: url("../images/dust_scratches.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    border-top: 2px solid #cccccc;
+}
+
+section {
+    width: 960px;
+    margin: 0 auto;
+    color: #777777;
+}
+
+.content {
+    padding: 30px;
+    background: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc
+}
+
+#profile {
+    margin-top: 10px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    width: 200px;
+    height: 185px;
+}
+
+p {
+    line-height: 2;
+}
+
+/*
+=======================================================
+Contact.html 
+=======================================================
+*/
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    color: #ffffff;
+    background: #4aaaa5;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 815px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+/*
+=======================================================
+Portfolio.html 
+=======================================================
+*/
+
+.grid {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.col-1-3 {
+    margin-right: 0;
+    margin-bottom: 30px;
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+}
+
+.imgWrap {
+    width: 250px;
+    height: 200px;
+    padding: 0px;
+    position: relative;
+}
+
+.imgWrap img {
+    height: 100%;
+    width: 100%;
+}
+
+.imgWrap img:hover,
+.imgWrap .imgCaption:hover {
+    transform: scale(1.1);
+}
+
+.imgCaption {
+    background-color: #4aaaa5;
+    width: 100%;
+    height: 40px;
+    bottom: 10px;
+    left: 0;
+    opacity: 0.9;
+    position: absolute;
+    text-align: center;
+    line-height: 4px;
+}
+
+.imgCaption h3 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal;
+    font-family: 'Georgia', Times,Times New Roman, serif;
+}
+
+/*
+=======================================================
+Footer
+=======================================================
+*/
+
+footer {
+    flex-shrink: 0;
+    padding: 0;
+    background: #666666;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+}
+
+footer p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 0.7em;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/*
+=======================================================
+Media Queries for 980px screen
+=======================================================
+*/
+
+@media screen and (max-width: 980px) {
+
+    header {
+        position: static;
+        height: auto;
+    }
+
+    nav {
+        float: right;
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+
+    h1 {
+        padding: 20px 30px;
+        margin-left: 30px;
+        margin-top: -5px;
+    }
+
+    section {
+        width: 65%;
+        margin: 0 35px;;
+        color: #777777;
+        
+    }
+
+    .grid {
+        margin: 0px;
+    }
+
+    .col-1-3 {
+        display: inline-block;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .imgWrap {
+        display: inline-block;
+        float: none;
+        margin: auto;
+        height: 150px;
+        width: 250px;
+    }
+
+}
+
+/*
+=======================================================
+Media Queries for 768px screen
+=======================================================
+*/
+
+
+@media screen and (max-width: 768px) {
+ 
+    header {
+        position: static;
+        height: auto;
+    }
+
+    nav {
+        float: right;
+        margin-right: 230px;
+        margin-top: 15px;
+    }
+
+    h1 {
+        padding: 20px 30px;
+        margin-left: 16px;
+        margin-top: -5px;
+    }
+
+    #profile {
+        width: 310px;
+        height: 300px;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    div.wrapper {
+        padding: 60px 0px;
+    }
+
+    section {
+        margin-left: 15px;
+        margin-top: -30px;
+    }
+
+    .content {
+        width: 148%;
+        height: auto;
+        font-size: 100%;
+        left: 5px;   
+    }
+
+    .grid {
+        margin: 0px;
+    }
+
+    .col-1-3 {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    .imgWrap {
+        display: inline-block;
+        float: none;
+        margin: auto;
+        height: 200px;
+        width: 310px
+    }
+}
+
+/*
+=======================================================
+Media Queries for 640px screen
+=======================================================
+*/
+
+@media screen and (max-width: 640px) {
+
+    header {
+        position: static;
+        height: auto;
+    }
+
+    nav {
+        float: none;
+        margin-left: 80px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        padding: 20px 97px;
+        margin-left: 0;
+    }
+
+    #profile {
+        width: 310px;
+        height: 300px;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    section {
+        margin-left: 8px;
+        margin-top: -30px;
+    }
+
+    .content {
+        width: 148%;
+        height: auto;
+        font-size: 100%;
+        left: 5px;   
+    }
+
+    .grid {
+        margin: -4px;
+    }
+
+    .col-1-3 {
+        display: block;
+    }
+
+    .imgWrap {
+        display: block;
+        float: none;
+        margin: auto;
+        height: 200px;
+        width: 310px
+    }
+}
+
