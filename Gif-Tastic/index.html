@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GifTastic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+    
+    <!--header using NavBar from Bootstrap-->
+    <nav class="navbar fixed-top">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12";>
+                <h1 class="name">GifTastic</h1> 
+            </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="button-list"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-9 container-fluid">
+                <div class="gifs-images"></div>
+            </div>
+            <div class="col-md-3">
+                <form id="gif-form">
+                    <label for="topic-input"><h2>Add a T.V. Series</h2></label>
+                    <br>
+                    <input type="text" id="topic-input">
+                    <br>
+                    <input id="add-series" class="btn btn-default" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Foooter-->
+    <!-- <footer id="mainFooter" class="text-light fixed-bottom">
+            <div class="row text-center">
+                <div class="col-xs-12 col-lg-12">
+                    <small>Copyright &copy; 2018 Richard Sanchez</small>
+                </div>
+            </div>
+    </footer>
+     -->
+    <script type="text/javascript" src="assets/javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+nav {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-image: url("../images/HD-Image-Wood_Bright_Stripes_Vertical_239_2560x1600.jpg");
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    color: white;
+}
+
+.button-list {
+    margin: 20px 0px 20px 0px;
+}
+
+.gifDiv {
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.topic {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+#add-series {
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#topic-input {
+    width: 100%;
+    margin-top: 2px;
+}
+
+/* footer {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+} */
+
