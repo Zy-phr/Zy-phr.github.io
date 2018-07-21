@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Chonburi|Orbitron');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1,h2 {
+    font-family: 'Chonburi', cursive;
+}
+
+.container {
+    background: rgba(22,22,22,0.8);
+    margin-top: 15px;
+    border-radius: 20px;
+    border: 2px solid #b7c5cbd6;
+    padding: 0 40px 20px 40px;
+}
+
+.jumbotron {
+    background: none;
+    text-shadow: 2px 2px 0px #b7c5cbd6;
+    margin: -20px;
+}
+
+.btn {
+    background: black;
+    color: white;
+    border: 2px white solid;
+}
+
+.btn:hover {
+    color: black;
+    background: white;
+    border: 2px black solid;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle;
+    border-bottom: 1px solid #b7c5cbd6;
+}
+
+.table>thead {
+    color: white;
+    border-bottom: 2px solid #b7c5cbd6;
+
+}
+
+.current-time {
+    text-align: center;
+    color: white;
+    text-shadow: none;
+    font-size: 16px;
+}
+
+.panel {
+    background: rgba(137, 137, 137, 0.189);
+    border: 1px solid #b7c5cbd6;
+    color: white;
+}
+
+.panel-title {
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: rgb(164, 164, 164);
+    border-bottom: 2px solid #b7c5cbd6;
+    margin: 5px 0;
+    padding: 0 0 10px 0;
+    text-shadow: 2px 2px 0px #101010d6;
+}
+
