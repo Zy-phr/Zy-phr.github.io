@@ -92,7 +92,8 @@ function googleSignOut() {
         $('.search-bar').hide();
         $('.signIn').show();
         $('.video').show();
-        window.location = '/';
+        window.location = 'index.html';
+        return false;
 
     },function(error) {
         console.log("Signed Out Failed")
