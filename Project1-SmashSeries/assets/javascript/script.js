@@ -200,7 +200,7 @@ function popularSeries() {
             tvseriesPoster.addClass("series-poster");
             var tvseriesTitle = $("<p>").html(response.name);
             tvseriesTitle.addClass("series-title");
-            var tvseriesRating = $("<p>").html(response.vote_average + "/10");
+            var tvseriesRating = $("<p>").html(response.vote_average + " / 10");
             tvseriesRating.addClass("series-rating");
 
             $(tContent).append(tvseriesPoster, tvseriesTitle, tvseriesRating);
