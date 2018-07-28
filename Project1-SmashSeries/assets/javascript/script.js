@@ -151,18 +151,18 @@ function actorSelected(id) {
 var api_key = "e61e9fb239b05528d06ac5dc3e44f900";
 
 // Popular TV Series IDs
-var tvseries = ["62560", "1418", "60573", "60625", "60574", "66732", "1399", "1402", "10283", "67744", "75758", "186", "1668", "70573", "46533", "65495", "70453", "1413", "63247", "71116", "30991", "2382", "2316", "1408", "44217"]
+var tvseries = ["62560","1418", "60573", "60625", "60574", "66732", "1399", "1402",  "10283", "67744", "75758", "186", "1668", "70573", "46533", "65495", "70453", "1413", "63247", "71116", "30991", "2382", "2316", "1408", "44217"]
 console.log(tvseries);
 
-var random = tvseries[Math.floor(Math.random() * tvseries.length)];
+// var random = tvseries[Math.floor(Math.random() * tvseries.length)];
 
 // Var containing image path for TV series poster
 var image_path = "https://image.tmdb.org/t/p/w500";
 
 function popularSeries() {
 
-    for (let i = 0; i < random; i++) {
-        var tvSeries = random[i];
+    for (let i = 0; i < tvseries.length; i++) {
+        var tvSeries = tvseries[i];
         console.log(tvSeries);
 
         var settings = {
