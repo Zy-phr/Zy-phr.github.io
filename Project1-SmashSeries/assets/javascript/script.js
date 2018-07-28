@@ -161,8 +161,8 @@ var image_path = "https://image.tmdb.org/t/p/w500";
 
 function popularSeries() {
 
-    for (let i = 0; i < tvseries.length; i++) {
-        var tvSeries = tvseries[i];
+    for (let i = 0; i < random; i++) {
+        var tvSeries = random[i];
         console.log(tvSeries);
 
         var settings = {
