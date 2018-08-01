@@ -168,7 +168,7 @@ Footer
 */
 
 footer {
-    padding: 10px;
+    padding: 20px;
     background: #666666;
     border-top-color: #4aaaa5;
     border-top-style: solid;
@@ -178,6 +178,6 @@ footer small {
     margin: 0;
     color: #ffffff;
     font-size: 0.7em;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
