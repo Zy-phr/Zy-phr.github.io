@@ -13,92 +13,242 @@
 
 <body>
     <!--header using NavBar from Bootstrap-->
-    <nav class="navbar fixed-top">
+    <header class="navbar fixed-top">
         <div class="container">
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4";>
-                <h1 class="name">Richard Sanchez</h1> 
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4";>
-                <ul class="navbarNav">
-                    <li><a id="inT" href="index.html">About</a></li>
-                    <li><a id="pfT" href="portfolio.html">Portfolio</a></li>
-                    <li><a id="coT" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+            <h1 class="name">Richard Sanchez</h1> 
+            <ul class="navbarNav">
+                <li><a id="inT" href="index.html" class="btn btn-default">Home</a></li>
+                <li><a id="pfT" href="portfolio.html" class="btn btn-default">Portfolio</a></li>
+                <li><a id="coT" href="contact.html" class="btn btn-default">Contact</a></li>
+            </ul>
         </div>
-    </nav>
-
+    </header>
 
     <div class="wrapper">
 
         <section> 
 
-            <div class="content">
+            <div class="container">
                 <!--Portfolio header-->
-                <div class="container" style="font-family: Georgia, 'Times New Roman', Times, serif ">
+                <div class="portfolio-box" style="font-family: Georgia, 'Times New Roman', Times, serif ">
                     <div class="row">
-                        <div class="col-lg-12" style="background-color:#fff;">
+                        <div class="col-lg-12">
                             <h2>Portfolio</h2>
                         </div>
                     </div>
                 </div>
-                <!--Portfolio picture for ESO MMO Game and Coding Boot Camp-->
-                <div class="container" style="font-family: Arial, Helvetica, sans-serif">
+                <br>
+                   <!--Game of Thrones Hangman - Word Guess Game-->  
+                <div class="content" style="font-family: Arial, Helvetica, sans-serif">
                     <div class="row">
-                        <div class="col-lg-4" style="background-color:#fff;">
+                        <div class="col-lg-4">
                             <a href="https://zy-phr.github.io/wordGuessGame/"> 
-                            <img id="profile" src="./assets/images/GOT-Hangman.png"  alt="Game of Thrones" height="200px" width="300px">
-                            <h3>Game of Thrones (Hangman)</h3>
+                                <img id="profile" src="./assets/images/GOT-Hangman.png"  alt="Game of Thrones" height="200px" width="300px">
                             </a>
                         </div>
-                        <div class="col-lg-4" style="background-color: #fff">
-                            <a href="https://zy-phr.github.io/Unit4Game/">
-                            <img id="profile" src="./assets/images/Rick-and-Morty-RPG.png" alt="Rick and Morty" height="200px" width="300px">
-                            <h3>Rick and Morty (RPG)</h3>
-                            </a>
+                        <div class="col-lg-6">
+                            <h3>Game of Thrones Hangman Game (Javascript)</h3>
+                            <br>
+                            <p>
+                                My first interactive project lets users play JavaScript-powered hangman. One small step for hangman, one giant step forward for web development. Winter is coming, and time's running out!
+                            </p>
                         </div>
-                        <div class="col-lg-4" style="background-color: #fff">
-                            <a href='https://zy-phr.github.io/Trivia-Game/'>
-                            <img id="profile" src="./assets/images/BBT-Trivia-Game.png" alt="Big Bang Theory" height="200px" width="300px">
-                            <h3>Big Bang Theory (Trivia Game)</h3> 
+                        <div class="col-lg-2">
+                            <br>
+                            <br>
+                            <a href="https://github.com/Zy-phr/Word-Guess-Game" target="_blank">
+                                <img id="GitHubImg" class="img-fluid" src="assets/images/gitimages.png" alt="GitHub"> GitHub Repo
                             </a>
                         </div>
                     </div>
                 </div>
-                <!--Portfolio picture for Escape Room and Ideas-->
-                <div class="container" style="font-family: Arial, Helvetica, sans-serif">
+                <br>
+                <!--Rick and Morty RPG - Unit 4 Game-->
+                <div class="content" style="font-family: Arial, Helvetica, sans-serif">
                     <div class="row">
-                        <div class="col-lg-4" style="background-color:#fff;">
-                            <a href="https://zy-phr.github.io/Gif-Tastic/">
-                            <img id="profile" src="./assets/images/gifTastic.png" alt="gifTastic" height="200px" width="300px">
-                            <h3>gifTastic</h3>
+                        <div class="col-lg-4">
+                            <a href="https://zy-phr.github.io/Unit4Game/"> 
+                                <img id="profile" src="./assets/images/Rick-and-Morty-RPG.png"  alt="Game of Thrones" height="200px" width="300px">
                             </a>
                         </div>
-                        <div class="col-lg-4" style="background-color: #fff">
-                            <a href="https://zy-phr.github.io/Train-Schedule/">
-                            <img id="profile" src="./assets/images/Train-Scheduler.png" alt="Train Scheduler" height="200px" width="300px">
-                            <h3>Train Scheduler</h3>
-                            </a>
+                        <div class="col-lg-6">
+                            <h3>Rick and Morty RPG (jQuery)</h3>
+                            <br>
+                            <p>
+                                This Rick and Morty RPG utilizes jQuery to generate random numbers and assign random values to Rick and Morty Characters.  Select a characther then your opponent and click attack to play this addictive game.
+                            </p>
                         </div>
-                        <div class="col-lg-4" style="background-color: #fff">
-                            <a href="https://zy-phr.github.io/Project1-SmashSeries/">
-                            <img id="profile" src="./assets/images/Smash-T.V.png" alt="Smash T.V." height="200px" width="300px">
-                            <h3>Smash T.V.</h3>
+                        <div class="col-lg-2">
+                            <br>
+                            <a href="https://github.com/Zy-phr/unit-4-game" target="_blank">
+                                <img id="GitHubImg" class="img-fluid" src="assets/images/gitimages.png" alt="GitHub"> GitHub Repo
                             </a>
                         </div>
                     </div>
                 </div>
+                <br>
+                <!--The Big Bang Theory Trivia Game-->
+                <div class="content" style="font-family: Arial, Helvetica, sans-serif">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <a href="https://zy-phr.github.io/Trivia-Game/"> 
+                                <img id="profile" src="./assets/images/BBT-Trivia-Game.png"  alt="Game of Thrones" height="200px" width="300px">
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <h3>The Big Bang Theory Trivia Game</h3>
+                            <br>
+                            <p>
+                                This game uses JavaScript and jQuery to give players a timed trivia test of their Big Bang Theory knowledge.
+                            </p>
+                        </div>
+                        <div class="col-lg-2">
+                            <br>
+                            <a href="https://github.com/Zy-phr/TriviaGame" target="_blank">
+                                <img id="GitHubImg" class="img-fluid" src="assets/images/gitimages.png" alt="GitHub"> GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <!--Gif Tastic -->  
+                <div class="content" style="font-family: Arial, Helvetica, sans-serif">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <a href="https://zy-phr.github.io/Gif-Tastic/"> 
+                                <img id="profile" src="./assets/images/gifTastic.png"  alt="Game of Thrones" height="200px" width="300px">
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <h3>GifTastic</h3>
+                            <br>
+                            <p>
+                                Welcome to GifTastic, Click a button for GIPHY images and videos or search for more GIPHY.
+                            </p>
+                        </div>
+                        <div class="col-lg-2">
+                            <br>
+                            <a href="https://github.com/Zy-phr/GifTastic" target="_blank">
+                                <img id="GitHubImg" class="img-fluid" src="assets/images/gitimages.png" alt="GitHub"> GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+              <!--Train Scheduler-->
+                <div class="content" style="font-family: Arial, Helvetica, sans-serif">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <a href="https://zy-phr.github.io/Train-Schedule/"> 
+                                <img id="profile" src="./assets/images/Train-Scheduler.png"  alt="Game of Thrones" height="200px" width="300px">
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <h3>Train Scheduler</h3>
+                            <br>
+                            <p>
+                                Track Train schedulr or edit and delete current trains or add your own train to the real time schedule 
+                            </p>
+                        </div>
+                        <div class="col-lg-2">
+                            <br>
+                            <a href="https://github.com/Zy-phr/Train-Scheduler" target="_blank">
+                                <img id="GitHubImg" class="img-fluid" src="assets/images/gitimages.png" alt="GitHub"> GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                 <!--Project 1 Smash T.V.-->
+                <div class="content" style="font-family: Arial, Helvetica, sans-serif">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <a href="https://zy-phr.github.io/Project1-SmashSeries/"> 
+                                <img id="profile" src="./assets/images/Smash-T.V.png"  alt="Game of Thrones" height="200px" width="300px">
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <h3>Smash T.V.</h3>
+                            <br>
+                            <p>
+                                Project 1 - using JavaScript, moments.js, Firebase and API's to create a T.V. Series App. Using Firebase to Sign In with Google, then search or select any T.V. Series to find information or links to your series.
+                            </p>
+                        </div>
+                        <div class="col-lg-2">
+                            <br>
+                            <a href="https://github.com/Zy-phr/GroupProject1" target="_blank">
+                                <img id="GitHubImg" class="img-fluid" src="assets/images/gitimages.png" alt="GitHub"> GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br>
 
         </section> 
     </div>
-    
+
+    <!--Row of all of my projects-->
+    <div class="seriesList">
+        <div id="seriesOptions">
+            <div class="panel-body table-responsive">
+
+                <table class="topSeries col-md-12">
+                    <thead>
+            
+                        <th class="series">
+                            <br>
+                            <a href="https://zy-phr.github.io/wordGuessGame/"> 
+                            <img src="assets/images/GOT-Hangman.png" width="300px" height="200px" alt="Game of Thrones">
+                            </a>
+                            <p>Game of Thrones (Hangman)</p>
+                        </th>
+                
+                        <th class="series">
+                            <br>
+                            <a href="https://zy-phr.github.io/Unit4Game/"> 
+                            <img src="assets/images/Rick-and-Morty-RPG.png" width="300px" height="200px" alt="Rick and Morty">
+                            </a>
+                            <P>Rick and Morty (RPG)</P>
+                        </th>
+                
+                        <th class="series">
+                            <br>
+                            <a href="https://zy-phr.github.io/Trivia-Game/">
+                            <img src="assets/images/BBT-Trivia-Game.png" width="300px" height="200px" alt="The Big Bang Theory">
+                            </a>
+                            <p>The Big Bang Theory (Trivia)</p>
+                        </th>
+                
+                        <th class="series">
+                            <br>
+                            <img src="assets/images/gifTastic.png" width="300px" height="200px" alt="Gif Tastic">
+                            <p>Gif Tastic</p>
+                        </th>
+            
+                        <th class="series">
+                            <br>
+                            <img src="assets/images/Train-Scheduler.png" width="300px" height="200px" alt="Train Scheduler">
+                            <p>Train Scheduler</p>
+                        </th>
+                
+                        <th class="series">
+                            <br>
+                            <img src="assets/images/Smash-T.V.png" width="300px" height="200px" alt="Project 1">
+                            <p>Project 1 Smash T.V.</p>
+                        </th>
+                    </thead>
+                </table>
+
+            </div>
+        </div>
+    </div>
     <!--Foooter-->
     
     <footer id="mainFooter" class="text-light fixed-bottom">
         <div class="container">
             <div class="row text-center">
                 <div class="col-xs-12 col-lg-12">
-                    <small>Copyright &copy; 2018 Richard Sanchez</small>
+                    <small> | Richard Sanchez | Copyright &copy; 2018 | </small>
                 </div>
             </div>
         </div>
