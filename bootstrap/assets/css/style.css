@@ -92,8 +92,8 @@ About Me index.html section
 
 h2 {
     font-family: 'Orbitron', sans-serif;
-    color: white;
-    text-shadow: 3px 3px 0px black;
+    color: rgba(0, 0, 0, 0.753);
+    text-shadow: 3px 3px 0px #00000077;
     font-size: 50px;
     font-weight: bold;
     border-bottom: 2px solid  #000000d5;
