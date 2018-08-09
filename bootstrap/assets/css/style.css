@@ -16,7 +16,7 @@ body {
     padding: 0;
     margin: 0;
     flex-direction: column;
-    font-family: 'Arial', 'Helvetica Neue', Helvetoca, sans-serif;  
+    font-family: 'Julius Sans One', sans-serif;
     background-image: url("../images/designBody.jpg");
     width: 100%;
     height: 100%;
@@ -33,9 +33,9 @@ body {
 .name {
     margin: 0;
     color: white;
-    padding: 16px 80px;
+    padding: 16px 53px;
     font-size: 28px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Orbitron', sans-serif;
     background: #000000d5;
     display: inline-block;
 }
@@ -43,9 +43,11 @@ body {
 ul {
     margin: 10px 0px;
     display: inline;
+    padding-left: 15px;
 }
 
 a {
+    font-family: 'Julius Sans One', sans-serif;
     text-decoration: none;
     color: white;
 }
@@ -89,7 +91,7 @@ About Me index.html section
 }
 
 h2 {
-    font-family: 'Georgia', Times,Times New Roman, serif;
+    font-family: 'Orbitron', sans-serif;
     color: white;
     text-shadow: 3px 3px 0px black;
     font-size: 50px;
@@ -99,6 +101,7 @@ h2 {
 }
 
 p {
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 16px;
     line-height: 2;
     color: white;
@@ -145,7 +148,8 @@ th.series:hover {
 }
 
 h3 {
-   color: #0795e7;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #0795e7;
 }
 
 .content {
