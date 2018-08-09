@@ -21,7 +21,7 @@ body {
     width: 100%;
     height: 100%;
     flex: 1 0 auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 .navbar {
@@ -33,7 +33,7 @@ body {
 .name {
     margin: 0;
     color: white;
-    padding: 16px 53px;
+    padding: 16px 40px;
     font-size: 28px;
     font-family: 'Orbitron', sans-serif;
     background: #000000d5;
@@ -43,7 +43,7 @@ body {
 ul {
     margin: 10px 0px;
     display: inline;
-    padding-left: 15px;
+    padding-left: 2px;
 }
 
 a {
