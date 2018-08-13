@@ -9,145 +9,201 @@ var arrayFinder = 0;
 
 
 var question01 = {
-	question: "Who lives across the hall from Leonard and Sheldon?",
-	answers: ["Amy Farrah Fowler", "Penny", "Leslie Winkle", "Mary Cooper"],
+	question: "WHO LIVES ACROSS THE HALL FROM LEONARD AND SHELDON?",
+	answers: ["AMY FARRAH FOWLER", "PENNY", "LESLIE WINKLE", "MARY COOPER"],
 	values: ["incorrect", "correct", "incorrect", "incorrect"],
-	correct: "Penny",
+	correct: "PENNY",
 	image: "./assets/images/Q1.png"
 };
 var question02 = {
-	question: "What happened to the elevator?",
-	answers: ["Nothing, it works fine", "Leonard blew it up", "Howard tried to improve it but ending up breaking it", "The broken elevator is never explained"],
+	question: "WHO BROKE THE ELEVATOR IN LEONARD AND SHELDON'S BUILDING?",
+	answers: ["HOWARD WOLOWITZ", "LEONARD HOFSTADTER", "RAJESH KOOTHRAPPALI", "SHELDON COOPER"],
 	values: ["incorrect", "correct", "incorrect", "incorrect"],
-	correct: "Leonard blew it up",
+	correct: "LEONARD BLEW IT UP",
 	image: "./assets/images/Q2.png"
 };
 var question03 = {
-	question: "Where does Penny work?",
-	answers: ["Cracker Barrel", "Bob Evans", "Ponderosa Steakhouse", "The Cheesecake Factory"],
+	question: "WHERE DOES PENNY WORK WHEN SHE'S NOT ACTING?",
+	answers: ["CRACKER BARREL", "BOB EVANS", "PONDEROSA STEAKHOUSE", "THE CHEESECAKE FACTORY"],
 	values: ["incorrect", "incorrect", "incorrect", "correct"],
-	correct: "The Cheesecake Factory",
+	correct: "THE CHEESECAKE FACTORY",
 	image: "./assets/images/Q3.png"
 };
 var question04 = {
-	question: "Which two dating characters are played by actors who have played dating characters on another show?",
-	answers: ["Sheldon and Amy", "Howard and Bernadette", "Leonard and Leslie", "Penny and Kurt"],
+	question: "WHICH TWO CHARACTERS PLAYED DATING CHARACTERS ON ANOTHER SHOW?",
+	answers: ["SHELDON AND AMY", "HOWARD AND BERNADETTE", "LEONARD AND LESLIE", "PENNY AND KURT"],
 	values: ["incorrect", "incorrect", "correct", "incorrect"],
-	correct: "Leonard and Leslie",
+	correct: "LEONARD AND LESLIE",
 	image: "./assets/images/Q4.png"
 };
 var question05 = {
-	question: "Which character lived with his/her mother",
-	answers: ["Howard Wolowitz", "Leslie Winkle", "Amy Farrah Fowler", "Raj Koothrappali"],
+	question: "WHICH OF THE CHARACTERS LIVED WITH HIS/HER MOTHER?",
+	answers: ["HOWARD WOLOWITZ", "LESLIE WINKLE", "AMY FARRAH FOWLER", "RAJESH KOOTHRAPPALI"],
 	values: ["correct", "incorrect", "incorrect", "incorrect"],
-	correct: "Howard Wolowitz",
+	correct: "HOWARD WOLOWITZ",
 	image: "./assets/images/Q5.png"
 };
 var question06 = {
-	question: "Which character has a twin sister?",
-	answers: ["Bernadette", "Penny", "Leonard", "Sheldon"],
+	question: "WHICH OF THE CHARACTERS HAS AN EXCPECTED TWIN SISTER?",
+	answers: ["BERNADETTE ROSTENKOWSKI", "PENNY", "LEONARD HOFSTADTER", "SHELDON COOPER"],
 	values: ["incorrect", "incorrect", "incorrect", "correct"],
-	correct: "Sheldon",
+	correct: "SHELDON COOPER",
 	image: "./assets/images/Q6.png"
 };
 var question07 = {
-	question: "Which former Star Trek actor did Sheldon have a long stand feud?",
-	answers: ["LaVar Burton", "Will Wheaton", "Patrick Stewart", "Leonard Nimoy"],
+	question: "WHICH FORMER STAR TREK ACTOR DID SHELDON HAVE A LONG TIME FEUD WITH?",
+	answers: ["LAVAR BURTON", "WILL WHEATON", "PATRICK STEWART", "LEONARD NIMOY"],
 	values: ["incorrect", "correct", "incorrect", "incorrect"],
-	correct: "Will Wheaton",
+	correct: "WILL WHEATON",
 	image: "./assets/images/Q7.png"
 };
 var question08 = {
-	question: "Which character could not speak to Penny?",
-	answers: ["Howard Wolowitz", "Leonard Hofstadter ", "Rajesh Koothrappali", "Sheldon Cooper"],
+	question: "WHICH OF THE CHARACTERS COULD NOT SPEAK TO PENNY?",
+	answers: ["HOWARD WOLOWITZ", "LEONARD HOFSTADTER", "RAJESH KOOTHRAPPALI", "SHELDON COOPER"],
 	values: ["incorrect", "incorrect", "correct", "incorrect"],
-	correct: "Rejesh Koothrappalo",
+	correct: "REJESH KOOTHRAPPALI",
 	image: "./assets/images/Q8.png"
 };
 var question09 = {
-	question: "Which of the four main male characters is the only one who does not hold a doctorate in his field?",
-	answers: ["Sheldon Copper", "Leonard Hofstadter", "Howard Wolowitz", "Rajesh Koothrappali"],
+	question: "WHICH CHARACTER DOES NOT HOLD A DOCTORATE IN HIS FIELD?",
+	answers: ["SHELDON COPPER", "LEONARD HOFSTADTER", "HOWARD WOLOWITZ", "RAJESH KOOTHRAPPALI"],
 	values: ["incorrect", "incorrect", "correct", "incorrect"],
-	correct: "Howard Wolowitz",
+	correct: "HOWARD WOLOWITZ",
 	image: "./assets/images/Q9.png"
 };
 var question10 = {
-	question: "Which season was it when Sheldon dreamt he was Smeagol from Lord of the Rings?",
-	answers: ["Season 1", "Season 2", "Season 3", "Season 4"],
+	question: "WHICH SEASON WAS IT WHEN SHELDON DREAMT HE WAS SMEAGOL FROM LORD OF THE RINGS?",
+	answers: ["SEASON 1", "SEASON 2", "SEASON 3", "SEASON 4"],
 	values: ["incorrect", "incorrect", "correct", "incorrect"],
-	correct: "Season 3",
+	correct: "SEASON 3",
 	image: "./assets/images/Q10.png"
 };
 
 
 var questionsArray = [question01, question02, question03, question04, question05, question06, question07, question08, question09, question10];
 
+var mainImage = ["./assets/images/BBT.png"]
+var titleImage = new Image();
+titleImage.src = mainImage;
+
+var images = ["./assets/images/BBT1.jpg", "./assets/images/BBT2.jpg", "./assets/images/BBT3.jpg", "./assets/images/BBT4.jpg", "./assets/images/BBT5.jpg", "./assets/images/BBT6.jpg", "./assets/images/BBT7.jpg", "./assets/images/BBT8.jpg", "./assets/images/BBT9.jpg", "./assets/images/BBT10.jpg", "./assets/images/BBT11.jpg"];
+var index = 0;
+var myImage = new Image();
+myImage.src = images[index];
+
+// document.body.appendChild(myImage);
+
+
 // Functions
 
 	function start () {
-		$(".content-div").empty();
+		$(".content-div").html("HOW WELL DO YOU KNOW THE BIG BANG THEORY...<br> THINK YOU'RE THE ULTIMATE SUPERFAN...<br> THEN TEST YOUR KNOWLEDGE...<br>  PLAY THIS TRIVIA GAME...<br> LETS SEE HOW YOU STACK UP");
+		$(".question-div").html("DO WE SHARE A COMMON INTEREST?");
+		$(".start-div").show();
+		$(".timer-div").hide();
 		var startButton = $("<button>");
-		startButton.text("Start");
+		startButton.text("START");
+		startButton.css({'font-weight':'bold'})
 		startButton.addClass("start btn btn-default answerBtn");
-		$(".content-div").append(startButton);
+		$(".start-div").append(startButton);
+		$(".picture-div").append(titleImage);
+
 	};
 
 	function run() {
-      intervalId = setInterval(decrement, 1000);
-    };
-
+		$(".content-div").show();
+		$(".question-div").show();
+		$(".timer-div").show();
+		$(".start-div").empty();
+		$(".start-div").hide();
+		intervalId = setInterval(decrement, 1000);
+	};
+	
     function decrement() {
       time--;
-      $(".timer-div").html("Time Remaining: " + time + " Seconds");
+	  $(".timer-div").html("TIME REMAINING: " + time + " SECONDS");
+	 
       if (time == 0) {
         if (arrayFinder < questionsArray.length-1) {
         	setTimeout(function () {questionWrite(questionsArray[arrayFinder])}, 2000);
         	solutionWrite(questionsArray[arrayFinder]);
-	    	$(".question-div").html("Incorrect!");
+	    	$(".question-div").html("INCORRECT!");
         	stop();
         	unanswered++;
       	}
       	else if (arrayFinder < questionsArray.length) {
       		setTimeout(function () {endWrite(questionsArray[arrayFinder])}, 2000);
       		solutionWrite(questionsArray[arrayFinder]);
-	    	$(".question-div").html("Incorrect!");
+	    	$(".question-div").html("INCORRECT!");
         	stop();
         	unanswered++;
       	}
       };
-    };
+	};
+	
+
 
     function stop() {
-      clearInterval(intervalId);
+	  clearInterval(intervalId);
     };
 
 	function questionWrite (obj) {
 		time = 20;
 		$(".timer-div").empty();
-		$(".timer-div").html("Time Remaining: " + time + " Seconds");
+		$(".timer-div").html("TIME REMAINING: " + time + " SECONDS");
 		$(".question-div").empty();
 		$(".content-div").empty();
+		$(".picture-div").empty();
+		// $(".picture-div").append(myImage);
 		run ();
+		index += 1;
+		if (index === 11) {
+			index = 0;
+		}
+		var myImage = new Image();
+		myImage.src = images[index];
+		$(".picture-div").append(myImage);
+		$(".picture-div").empty(myImage);
+		$(".picture-div").append(myImage);
 		$(".question-div").html(obj.question);
+		
 		for (var i = 0; i < obj.answers.length; i++) {
 			var answerButton = $("<button>");
 			answerButton.addClass("answer btn btn-default answerBtn");
 			answerButton.text(obj.answers[i]);
 			answerButton.attr("value", obj.values[i]);
+			answerButton.css({'font-weight':'bold'});
 			$(".content-div").append(answerButton);
 			$(".content-div").append("<br>");
 		};
 	};
 
+	// setInterval(function(picslide) {
+	// 	index += 1;
+	// 	if (index === 6) {
+	// 		index = 0;
+	// 	}
+	// 	var myImage = new Image();
+	// 	myImage.src = images[index];
+	// 	$(".picture-div").append(myImage);
+	// 	$(".picture-div").empty(myImage);
+	// 	$(".picture-div").append(myImage);
+
+	// }, 4000);
+
 	function solutionWrite (obj) {
 		$(".question-div").empty();
 		$(".content-div").empty();
-		$(".content-div").html("The correct answer was " + obj.correct + "<br>");
+		$(".start-div").show();
+		$(".start-div").html("THE CORRECT ANSWER WAS " + obj.correct + "<br>");
+		$(".picture-div").empty();
+		$(".content-div").hide();
 		var characterImage = $("<img>");
-		characterImage.attr("height", "250");
+		characterImage.attr("width", "50");
 		characterImage.attr("src", obj.image);
-		characterImage.addClass("character")
-		$(".content-div").append(characterImage);
+		characterImage.addClass("character");
+			setTimeout(function(picslide) {2000});
+		$(".picture-div").append(characterImage);
 		arrayFinder++;
 	};
 
@@ -159,7 +215,7 @@ var questionsArray = [question01, question02, question03, question04, question05
 		stop();
 		if ($(this).attr("value") == "correct") {
 			solutionWrite(questionsArray[arrayFinder]);
-			$(".question-div").html("Correct!");
+			$(".question-div").html("CORRECT!");
 			correct++;
 			if (arrayFinder < questionsArray.length) {
 				setTimeout(function () {questionWrite(questionsArray[arrayFinder])}, 2000);
@@ -170,7 +226,7 @@ var questionsArray = [question01, question02, question03, question04, question05
 		}
 		else if ($(this).attr("value") == "incorrect") {
 			solutionWrite(questionsArray[arrayFinder]);
-			$(".question-div").html("Incorrect!");
+			$(".question-div").html("INCORRECT!");
 			incorrect++;
 			if (arrayFinder < questionsArray.length) {
 				setTimeout(function () {questionWrite(questionsArray[arrayFinder])}, 2000);
@@ -182,14 +238,21 @@ var questionsArray = [question01, question02, question03, question04, question05
 	};
 
 	function endWrite () {
+		$(".picture-div").empty();
 		$(".question-div").empty();
 		$(".content-div").empty();
-		$(".question-div").html("Here's how you did!");
-		$(".content-div").html("<p> Correct: " + correct + "</p>" + "<p> Incorrect: " + incorrect + "</p>" + "<p> Unanswered: " + unanswered + "</p>");
+		$(".start-div").empty();
+		$(".content-div").show();
+		$(".picture-div").append(myImage);
+		$(".question-div").html("FINISHED! <BR> NOW LETS SEE HOW YOU DID!");
+		$(".content-div").html("<br>" + "<p> CORRECT: " + correct + "</p>" + "<p> INCORRECT: " + incorrect + "</p>" + "<p> UNANSWERED: " + unanswered + "</p>" + "<br>");
 		var resetButton = $("<button>");
 		resetButton.addClass("reset btn btn-default answerBtn");
-		resetButton.text("Start Over?");
-		$(".content-div").append(resetButton);
+		resetButton.text("START OVER?");
+		resetButton.css({'font-weight':'bold'});
+		$(".start-div").show();
+		$(".start-div").append(resetButton);
+		$(".timer-div").hide();
 	}
 
 	function resetClick () {
@@ -198,6 +261,7 @@ var questionsArray = [question01, question02, question03, question04, question05
 		correct = 0;
 		unanswered = 0;
 		startWrite();
+		$(".start-div").empty();
 	}
 
 	$(document).on("click", ".start", startWrite);
