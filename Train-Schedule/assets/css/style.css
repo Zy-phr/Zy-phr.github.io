@@ -2,6 +2,12 @@
 
 body {
     font-family: 'Orbitron', sans-serif;
+    background: url(../images/street_city_travel_light_shadow_people_urban_blackandwhite-569662.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 }
 
 h1,h2 {
