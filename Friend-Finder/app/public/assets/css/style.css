@@ -1,0 +1,218 @@
+/*
+===========================================================================
+Style.css for Home.html
+===========================================================================
+*/
+
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    margin: 0;
+    background: linear-gradient(rgba(53, 53, 53, 0.616), rgba(53, 53, 53, 0.616)), url(../images/background.png);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+div.container {
+    color: inherit;
+    background-color: rgba(73, 73, 73, 0.836) !important;
+    border-radius: 8px;
+    margin-top: 22px;
+    border: 2px solid black;
+}
+
+.jumbotron {
+    margin-bottom: 0px !important;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: inherit;
+    background-color: rgba(73, 73, 73, 0.356) !important;
+    border-radius: 8px;
+} 
+
+.icon {
+    border-radius: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-right: 15px;
+
+}
+
+h1 {
+    font-size: 70px !important;
+    font-family: 'Vast Shadow', cursive !important;
+}
+
+h2 {
+    font-family: 'Noto Serif', serif !important;
+}
+
+h3 {
+    font-size: 32px !important;
+    font-family: 'Cinzel', serif !important;
+    font-weight: bolder !important;
+}
+
+
+h4 {
+    font-size: 22px !important;
+    font-family: 'Cinzel', serif !important;
+    font-weight: bold !important;
+
+}
+
+h1, h2, h3, h4 {
+    color: black !important;
+}
+
+img {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.intro {
+    border-top: 2px solid black !important;
+}
+
+button {
+    background: #464545;
+    color: black;
+    border-radius: 8px;
+    width: 150px;
+    border: 1px solid black;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+a {
+    color: black !important;
+    text-decoration: none !important;
+    font-size: 15px;
+}
+
+p {
+    color: black;
+}
+
+#survey {
+    background-color: #929292;
+    color: black;
+    border: 1px solid black;
+}
+
+/*
+===========================================================================
+Style.css for Survey.html
+===========================================================================
+*/
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+form {
+    margin-top: -15px;
+}
+
+.page-header {
+    border-bottom: 2px solid black !important;
+    margin-bottom: -40px;
+}
+
+.radio-group {
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.form-control {
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #fff !important;
+    background-image: none;
+    border: 1px solid black !important;
+    border-radius: 8px;
+    margin-top: -10px;
+}
+
+#questions {
+    margin-top: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+form {
+    padding-bottom: 20px;
+}
+
+.footer {	
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.footer .container {
+	color: #777;
+}
+
+img#match-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    border: 2px solid black;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+#submit {
+    margin-top: 20px;
+    background-color: #929292;
+    color: black;
+    border: 1px solid black;
+    margin-bottom: 30px !important;
+}
+
+.modal-content {
+    background-color: rgba(100, 100, 100, 0.712) !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-header {
+    margin-top: 10px;
+    border-bottom: 2px solid black !important;
+}  
+
+.close {
+    margin-right: -50px !important;
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    margin-top: 300px;
+    border-top: 2px solid black !important;
+}
+
+.btn-default {
+    background-color: #929292 !important;
+    color: black !important;
+    border: 1px solid black !important;
+}
+
+
+
+
+
+

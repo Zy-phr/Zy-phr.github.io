@@ -1,0 +1,10 @@
+<div class="tile">
+  <div class="tile-content">
+    <p class="tile-title">{{this.id}}. {{this.burger_name}}</p>
+  </div>
+  {{#unless this.devoured}}
+  <div class="tile-action">
+    {{> devour-burger}}
+  </div>
+  {{/unless}}
+</div>
